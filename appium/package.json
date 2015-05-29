@@ -1,0 +1,40 @@
+{
+  "name": "appium-javascript-workshop",
+  "description": "Basic workshop for Appium, in JavaScript",
+  "tags": [
+    "javascript",
+    "workshop",
+    "appium"
+  ],
+  "version": "1.0.0",
+  "author": "isaac@saucelabs.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appium/javascript-workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/appium/javascript-workshop/issues"
+  },
+  "engines": [
+    "node"
+  ],
+  "main": "./lib/main.js",
+  "directories": {
+    "tests": "./tests"
+  },
+  "dependencies": {
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "colors": "^1.0.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-env": "^0.4.2",
+    "grunt-simple-mocha": "^0.4.0",
+    "lodash": "^2.4.1",
+    "mocha": "^2.1.0",
+    "wd": "^0.3.11"
+  }
+}
