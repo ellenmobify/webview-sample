@@ -30,7 +30,7 @@ Note your local IP address - you will need it to link the sample site with the a
 
 This should generate .apk's in `/sample-app/native-app/scaffold/build/outputs/apk`. 
 
-6. Copy the .apk to the `app-testing-poc/app` folder. Link it with Appium by editing `app-testing-poc/appium/tests/functional/helpers/apps.js`
+6. Copy the .apk to the `webview-sample/app` folder. Link it with Appium by editing `webview-sample/appium/tests/functional/helpers/apps.js`
 
 7. If appium is [installed via npm](http://appium.io/):
 
